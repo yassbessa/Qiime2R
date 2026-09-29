@@ -72,7 +72,7 @@ plot_alpha <- df_shannon %>%
 ggsave("Shannon_por_Interferencia.pdf", plot = plot_alpha, height = 5, width = 6, device = "pdf")
 
 # =====================================================
-# SCRIPT: Heatmap Taxonômico (
+# SCRIPT: Heatmap
 
 library(tidyverse)
 library(qiime2R)
